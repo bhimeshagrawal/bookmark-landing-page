@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Bookmark Landing Page</title>
+</head>
+
+<body class="font-Poppins">
+    <!-- Header -->
+    <header>
+        <nav class="container flex items-center sm:mt-12 py-4 mt-4">
+            <div class="py-1"><img src="./img/logo-bookmark.svg" height="150" width="150" alt=""></div>
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
+                <li class="cursor-pointer">Features</li>
+                <li class="cursor-pointer">Pricing</li>
+                <li class="cursor-pointer">Contact</li>
+                <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">Login</button>
+            </ul>
+            <div class="flex sm:hidden flex-1 justify-end">
+                <i class="text-2xl fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hero section -->
+    <section class="relative">
+        <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+            <!-- Content -->
+            <div class="flex flex-1 flex-col items-center lg:items-start">
+                <h2 class="text-bookmark-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+                    A simple bookmark manager
+                </h2>
+                <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
+                    A clean and simple interface to organise your favourite websites, open a new browser tab and see the
+                    magic load instantly. Try it for free.
+                </p>
+                <div class="flex justify-center flex-wrap gap-6">
+                    <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Get it on
+                        chrome</button>
+                    <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">Get it on
+                        Firefox</button>
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:-full" src="./img/hero-bg.png" alt="">
+            </div>
+        </div>
+        <!-- Rounded Rectangle -->
+        <div
+            class="hidden md:block overflow-hidden bg-purple-600 rounded-l-full absolute top-32 right-0 h-80 w-2/4 lg:-bottom-28 lg:w-1/3">
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
+            <p class="text-center text-bookmark-grey mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                ab autem tempore animi quaerat, odio, architecto, sint consectetur hic facere iure! Tempora blanditiis
+                cum laudantium corrupti modi eum animi omnis!</p>
+        </div>
+        <!-- Feature - 1  -->
+        <div class="relative mt-20 lg:mt-24">
+            <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <!-- image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:-full"
+                        src="./img/illustration-features-tab-1.png" alt="">
+                </div>
+                <!-- content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+                    <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Voluptatum, neque laboriosam quisquam delectus temporibus
+                        consectetur veniam quasi assumenda. Sequi, inventore!</p>
+                    <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">More
+                        info</button>
+                    <!-- Rounded Rectangle -->
+                    <div
+                        class="hidden lg:block overflow-hidden bg-purple-600 rounded-r-full absolute h-60 -bottom-28 left-0 w-1/3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature - 2  -->
+        <div class="relative mt-20 lg:mt-52">
+            <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+                <!-- image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:-full"
+                        src="./img/illustration-features-tab-2.png" alt="">
+                </div>
+                <!-- content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+                    <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Voluptatum, neque laboriosam quisquam delectus temporibus
+                        consectetur veniam quasi assumenda. Sequi, inventore!</p>
+                    <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">More
+                        info</button>
+                    <!-- Rounded Rectangle -->
+                    <div
+                        class="hidden lg:block overflow-hidden bg-purple-600 rounded-l-full absolute h-60 -bottom-28 right-0 w-1/3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature - 3  -->
+        <div class="relative mt-20 lg:mt-52">
+            <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <!-- image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:-full"
+                        src="./img/illustration-features-tab-3.png" alt="">
+                </div>
+                <!-- content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+                    <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Voluptatum, neque laboriosam quisquam delectus temporibus
+                        consectetur veniam quasi assumenda. Sequi, inventore!</p>
+                    <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">More
+                        info</button>
+                    <!-- Rounded Rectangle -->
+                    <div
+                        class="hidden lg:block overflow-hidden bg-purple-600 rounded-r-full absolute h-60 -bottom-28 left-0 w-1/3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloads -->
+    <section class="py-20">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-bookmark-blue">Downloads</h1>
+            <p class="text-center text-bookmark-grey mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                ab autem tempore animi quaerat, odio, architecto, sint consectetur hic facere iure! Tempora blanditiis
+                cum laudantium corrupti modi eum animi omnis!</p>
+        </div>
+        <!-- Cards -->
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-24 content-center justify-evenly">
+            <!-- card #1 -->
+            <div class="h-60 w-48 border rounded-md flex flex-col items-center mx-auto mb-12">
+                <img class="mt-8" src="./img/logo-chrome.svg" height="80" width="80" alt="">
+                <h3 class="text-xl mt-4">Chrome</h3>
+                <p class="text-sm font-light text-gray-400">Minimum ver. 52</p>
+                <button type="button" class="py-1 mt-3 rounded-md px-6 bg-bookmark-purple text-white">Add to Chrome</button>
+            </div>
+            <!-- card #2 -->
+            <div class="h-60 w-48 border rounded-md flex flex-col items-center mx-auto mb-12">
+                <img class="mt-8" src="./img/logo-firefox.svg" height="80" width="80" alt="">
+                <h3 class="text-xl mt-4">Firefox</h3>
+                <p class="text-sm font-light text-gray-400">Minimum ver. 52</p>
+                <button type="button" class="py-1 mt-3 rounded-md px-6 bg-bookmark-purple text-white">Add to Firefox</button>
+            </div>
+            <!-- card #3 -->
+            <div class="h-60 w-48 border rounded-md flex flex-col items-center mx-auto mb-12">
+                <img class="mt-8" src="./img/logo-opera.svg" height="80" width="80" alt="">
+                <h3 class="text-xl mt-4">Opera</h3>
+                <p class="text-sm font-light text-gray-400">Minimum ver. 52</p>
+                <button type="button" class="py-1 mt-3 rounded-md px-6 bg-bookmark-purple text-white">Add to Opera</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="py-20 bg-bookmark-white">
+         <!-- Heading -->
+         <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-bookmark-blue">Frequently Asked Questions</h1>
+            <p class="text-center text-bookmark-grey mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                ab autem tempore animi quaerat, odio, architecto, sint consectetur hic facere iure! Tempora blanditiis
+                cum laudantium corrupti modi eum animi omnis!</p>
+        </div>
+        <!-- FAQs -->
+        <div class="mx-auto mt-16 ">
+            <ul class="rounded w-2/3 bg-white mx-auto cursor-pointer">
+                <li class="px-6 py-3 border-b rounded-t-xl">
+                    <div class="flex justify-between">
+                        <h3 class="text-gray-500">1. This is my first FAQ</h3>
+                        <button><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </li>
+                <li class="px-6 py-3 border-b">
+                    <div class="flex justify-between">
+                        <h3 class="text-gray-500">1. This is my first FAQ</h3>
+                        <button><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </li>
+                <li class="px-6 py-3 border-b">
+                    <div class="flex justify-between">
+                        <h3 class="text-gray-500">1. This is my first FAQ</h3>
+                        <button><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </li>
+                <li class="px-6 py-3 border-b">
+                    <div class="flex justify-between">
+                        <h3 class="text-gray-500">1. This is my first FAQ</h3>
+                        <button><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="pt-10">
+        <div class="container grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div class="m-8">
+                <img src="./img/logo-bookmark.svg" alt="">
+                <ul class="mt-8 flex flex-col gap-1 md:gap-4 font-bold text-gray-600">
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="m-8">
+                <ul class="mt-4 flex flex-col gap-4 font-bold text-gray-600">
+                    <li>Try for free</li>
+                    <li>Request a feature</li>
+                    <li>Bookmark Education</li>
+                    <li>Other services</li>
+                </ul>
+            </div>
+            <div class="m-8">
+                <ul class="mt-4 flex flex-col gap-4 font-bold text-gray-600">
+                    <li>Get a Quote</li>
+                    <li>Bookmark for Business</li>
+                    <li>Connect with us</li>
+                    <li>Feedback Form</li>
+                </ul>
+            </div>
+            <div class="m-8">
+                <ul class="mt-4 flex flex-col font-bold text-gray-600">
+                    <li>Address</li>
+                    <li class="font-light ml-2"><div><div>Random street,</div><div>ABC Apartment</div><div>New york, 234442</div></div></li>
+                    <li></li>
+                    <li class="mt-5">Contact: +(1) 123 45678</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- hz bar with copywright credits -->
+        <hr class="mx-24">
+        <p class="text-center mx-auto text-gray-400 my-2">Copyright reserved </p>
+    </section>
+</body>
+
+</html>
